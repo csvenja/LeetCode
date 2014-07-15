@@ -24,21 +24,21 @@ class Solution:
         array[flag].next = None
         return
 
-# p1 = ListNode(1)
-# p2 = ListNode(2)
-# p3 = ListNode(3)
-# p4 = ListNode(4)
-# p5 = ListNode(5)
-# p6 = ListNode(6)
-# p1.next = p2
-# p2.next = p3
-# p3.next = p4
-# p4.next = p5
-# p5.next = p6
+p1 = ListNode(1)
+p2 = ListNode(2)
+p3 = ListNode(3)
+p4 = ListNode(4)
+p5 = ListNode(5)
+p6 = ListNode(6)
+p1.next = p2
+p2.next = p3
+p3.next = p4
+p4.next = p5
+p5.next = p6
 
 # p1 = None
 
-p1 = ListNode(1)
+# p1 = ListNode(1)
 
 result = Solution()
 result.reorderList(p1)
